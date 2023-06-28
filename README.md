@@ -1,39 +1,18 @@
 # rickroll诈骗检测
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+本项目仅供娱乐整活。这个项目可以帮你检测一个网址里面有没有rickroll诈骗，让你从此以后告别《never gonna give you up》。
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装`python环境`，这应该不用我多说了吧，不懂就去百度
+2.  用`pip工具`安装`requests库`，执行`pip install requests'，如果出现报错，请自行百度解决
+3.  下载本仓库发行版，并解压
+4.  切换到解压目录下，通过执行`python main.py`来运行`main.py`
+5.  输入要鉴定的网址
 
-#### 参与贡献
+#### 注意事项
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  如果输入网址后出现报错，请先检查网址是否正确，再检查网络状态，最后重新运行本程序，再次输入网址
+2.  本项目依赖关键词检测，所以可能无法正确检测，您可以自行修改关键词列表（关键词列表位于`main.py'的`check函数`内，列表名为`ls`）
+3.  本项目仅供娱乐整活，请勿用于重大场合
